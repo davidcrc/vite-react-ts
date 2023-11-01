@@ -24,6 +24,10 @@ npx tailwindcss init -p
 npm add -D sass
 ```
 
+- rename App.css to App.scss, then copy @tailwind there
+
+- remove Index.css and his imports
+
 <!--  -->
 
 # react-icons

@@ -1,5 +1,5 @@
-import "./App.css";
-import { Features, Navbar } from "./components";
+import "./App.scss";
+import { Destination, Features, Navbar } from "./components";
 import { Home } from "./pages";
 
 function App() {
@@ -14,6 +14,10 @@ function App() {
 
         <div id="features">
           <Features />
+        </div>
+
+        <div id="destination">
+          <Destination />
         </div>
       </main>
     </div>

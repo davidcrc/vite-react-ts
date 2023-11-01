@@ -1,0 +1,7 @@
+.container {
+  @apply min-h-screen flex flex-col justify-center md:mx-32 mx-5;
+
+  &__title {
+    @apply font-medium text-center text-4xl lg:mt-0 mt-16;
+  }
+}
