@@ -7,7 +7,10 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <div className={styles.container__main}>
-        <form className={styles.container__main__form}>
+        <form
+          className={styles.container__main__form}
+          onSubmit={(e) => e.preventDefault()}
+        >
           <h1 className="text-4xl font-semibold text-center">Contact Form</h1>
           <div className=" flex flex-col">
             <label htmlFor="userName">Full Name</label>

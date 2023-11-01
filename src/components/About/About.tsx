@@ -11,7 +11,7 @@ const About = () => {
     <div className={styles.container}>
       <div className=" w-full lg:w-2/4 space-y-5">
         <h1 className=" font-semibold text-4xl text-white leading-tight">
-          At TripPixie, we are ready to provide you with the best trip of your
+          At TripExample, we are ready to provide you with the best trip of your
           life!
         </h1>
         <p className=" text-[#bdbdbd] pb-5">
