@@ -1,8 +1,19 @@
 import "./App.css";
-import Home from "./pages/Home";
+import { Navbar } from "./components";
+import { Home } from "./pages";
 
 function App() {
-  return <Home />;
+  return (
+    <div>
+      <Navbar />
+
+      <main>
+        <div id="home">
+          <Home />
+        </div>
+      </main>
+    </div>
+  );
 }
 
 export default App;
